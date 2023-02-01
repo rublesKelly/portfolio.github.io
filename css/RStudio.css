@@ -1,8 +1,7 @@
 /*Initial Setup*/ /*https://bits.theorem.co/css-pro-tips-responsive-font-sizes-and-when-to-use-which-units/*/
 body {
       background-color: #fff;
-      font: 12px;
-      
+      font: 12px;       
   }
 
 #grid{
@@ -26,9 +25,9 @@ body {
     border: solid #424242 .2em;
     border-radius: .2%;
     overflow: visible;
-    
-    max-width:  960px; 
+    max-width:  1280px; 
     margin:     auto; 
+    margin-bottom: 50px;
     width:      100%; 
     display:    block;
     }
@@ -61,13 +60,24 @@ nav>a{
     text-transform: uppercase;
 }
 
+
+
 h1{
     font: 2rem Helvetica !important;
     text-transform: uppercase;} 
 
 h2{
     font: 1.5rem Helvetica !important;
-    }     
+    }
+    
+.level4 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.level4>p{
+    font: 12px !important; 
+}
 
 #Conclusions{
     font: 1.5rem Helvetica !important;
