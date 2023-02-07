@@ -12523,7 +12523,7 @@ blockquote.float-end {
 .highlight {
 	padding: 2px 5px;
 	background-color: #444;
-	color: #FFF;
+	/* color: #FFF; */
 	border-radius: 2px;
 }
 
