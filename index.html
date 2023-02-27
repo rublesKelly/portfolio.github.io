@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -7,7 +8,9 @@
 
 	<!-- Stylesheets
 	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
+	<link
+		href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap"
+		rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="css/dark.css" type="text/css" />
@@ -20,12 +23,562 @@
 
 	<!-- Document Title
 	============================================= -->
-    <title>Robert Kelly Portfolio</title>
+	<title>Robert Kelly Portfolio</title>
 </head>
+
 <body>
 	<!-- <h1 style="color: chartreuse;">Website under construction most items fully functional</h1> -->
 
-		<!-- Document Wrapper
+	<!-- Header == -->
+	<header id="header" class="full-header">
+		<div id="header-wrap">
+			<div class="container">
+				<div class="header-row">
+
+					<!-- Logo == -->
+					<div id="logo">
+						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img
+								src="images/portfolio/personal-logo.png" alt="Canvas Logo"></a>
+						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img
+								src="images/logo@2x.png" alt="Canvas Logo"></a>
+						<h2 style="min-width: 300px; padding-top: 1.8rem; padding-left: .8rem;">Robert Kelly</h2>
+					</div><!-- #logo end -->
+
+					<div class="header-misc">
+
+
+						<!-- Primary Navigation  == -->
+						<nav class="primary-menu">
+
+							<ul class="menu-container">
+								<li class="menu-item">
+									<a class="menu-link" href="index.html">
+										<div>Home</div>
+									</a>
+								<!-- <li class="menu-item mega-menu mega-menu-full">
+									<a class="menu-link" href="#">
+										<div>Contact</div>
+									</a>
+									<div class="mega-menu-content mega-menu-style-2">
+										<div class="container">
+											<div class="row">
+												<ul class="sub-menu-container mega-menu-column col-lg-3">
+													<li class="menu-item">
+														<div class="widget">
+
+															<h4>My Location</h4>
+
+															<iframe
+																src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Maynooth%20Kildare+(Robert%20Kelly)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+																width="600" height="400" allowfullscreen></iframe>
+													</li>
+												</ul>
+												<ul class="sub-menu-container mega-menu-column col-lg-6">
+													<li class="menu-item">
+														<div class="widget">
+
+															<h4>Send us a Quick Email</h4>
+
+															<div class="form-widget" data-loader="button">
+																<div class="form-result"></div>
+
+																<form class="row mb-0" name="template-contactform"
+																	action="include/form.php" method="post">
+																	<div class="col-md-6 form-group">
+																		<input type="text"
+																			name="template-contactform-name" value=""
+																			class="form-control required"
+																			placeholder="Name">
+																	</div>
+																	<div class="col-md-6 form-group">
+																		<input type="email"
+																			name="template-contactform-email" value=""
+																			class="required email form-control"
+																			placeholder="Email">
+																	</div>
+																	<div class="col-md-6 form-group">
+																		<input type="text" name="subject" value=""
+																			class="required form-control"
+																			placeholder="Subject">
+																	</div>
+																	<div class="col-md-6 form-group">
+																		<input type="text"
+																			name="template-contactform-phone" value=""
+																			class="form-control" placeholder="Phone">
+																	</div>
+
+																	<div class="w-100"></div>
+
+																	<div class="col-12 form-group">
+																		<textarea class="required form-control"
+																			name="template-contactform-message" rows="3"
+																			cols="30"
+																			placeholder="Enter your Message"></textarea>
+																	</div>
+
+																	<div class="col-12 form-group d-none">
+																		<input type="text"
+																			id="template-contactform-botcheck"
+																			name="template-contactform-botcheck"
+																			value="" class="form-control">
+																	</div>
+
+																	<div class="col-12 form-group">
+																		<button
+																			class="button button-3d button-small m-0"
+																			type="submit"
+																			id="template-contactform-submit"
+																			name="template-contactform-submit"
+																			value="submit">Send Message</button>
+																	</div>
+
+																	<input type="hidden" name="prefix"
+																		value="template-contactform-">
+
+																</form>
+															</div>
+
+														</div>
+													</li>
+												</ul>
+												<ul class="sub-menu-container mega-menu-column col-lg-3">
+													<li class="menu-item">
+														<div class="widget">
+
+															<h4>Contact Details</h4>
+
+															<address>
+																<strong>Location:</strong><br>
+																Kildare Ireland<br>
+															</address>
+															<abbr title="Phone Number"><strong>Phone:</strong></abbr> On
+															request<br>
+															<abbr title="Email Address"><strong>Email:</strong></abbr>
+															rkellymkk@gmail.com
+
+
+
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li> -->
+
+								<li class="menu-item mega-menu mega-menu-full">
+									<a class="menu-link" href="#">
+										<div>About Me</div>
+									</a>
+									<div class="mega-menu-content mega-menu-style-2">
+										<div class="container">
+											<section id="content">
+												<div class="content-wrap">
+													<div class="container clearfix">
+
+														<div class="row clearfix">
+
+															<div class="col-md-9">
+
+																<img src="images/portfolio/profile pic.jpg"
+																	class="alignleft img-circle img-thumbnail my-0"
+																	alt="Avatar" style="max-width: 84px;">
+
+																<div class="heading-block border-0">
+																	<h3>Robert Kelly</h3>
+																	<span>Software dev, data analyst, experienced UI
+																		designer and blockchain enthusiast</span>
+																</div>
+
+																<div class="clear"></div>
+
+																<div class="row clearfix">
+
+
+
+																</div>
+
+															</div>
+
+															<!-- <div class="w-100 line d-block d-md-none"></div> -->
+
+															<div class="col-md-9">
+
+
+																<a href="https://www.linkedin.com/in/robert-kelly-1965325a/"
+																	class="social-icon si-linkedin si-small si-rounded si-light"
+																	title="LinkedIn">
+																	<i class="icon-linkedin"></i>
+																	<i class="icon-linkedin"></i>
+																</a>
+
+																<a href="https://github.com/rublesKelly?tab=repositories"
+																	class="social-icon si-github si-small si-rounded si-light"
+																	title="Github">
+																	<i class="icon-github"></i>
+																	<i class="icon-github"></i>
+																</a>
+
+																<a href="mailto:rkellymkk@gmail.com"
+																	class="social-icon icon-email icon-email3 si-small si-rounded si-light"
+																	title="Email">
+																	<i class="icon-email3"></i>
+																	<i class="icon-email3"></i>
+																</a>
+
+																<a href="https://open.spotify.com/user/rkellymkk?si=UjxPA-jDRD-X2fgM1lMUxA&utm_source=copy-link"
+																	class="social-icon icon-spotify si-small si-rounded si-light"
+																	title="Spotify">
+																	<i class="icon-spotify"></i>
+																	<i class="icon-spotify"></i>
+																</a>
+																<!-- <div style="display: inline; margin-left: 2rem;"> 
+																		<p  >Employed by</p>
+																		<a href="#" class="" title="Central Bank">
+																			<img src="images/portfolio/central bank logo with text.jpg" alt="Central Bank of Ireland logo" width="120">
+																		</a>
+																		<div style="margin-top: .4rem;"></div>
+																		<p style=" margin-left: 2rem; margin-right: .5rem;">Employed by</p>
+																		<a href="#" class="" title="Central Bank">
+																			<img src="images/portfolio/central bank logo with text.jpg" alt="Central Bank of Ireland logo" width="120">
+																		</a>
+																	</div> -->
+
+
+																<!-- <div class="col-md-7">
+																		<h5 style="display: inline; margin-left: 6rem;">Works for</h5>
+																		<a href="#" class=" si-small si-rounded si-light" title="Central Bank">
+																			<img src="images/portfolio/central bank logo.jpg" alt="Central Bank of Ireland logo" width="40">
+																		</a>
+											
+																		<div style="display: inline;">
+																			<h5 style=" margin-left: 6rem; margin-top: 1rem;">Educated by</h5>
+																			<a href="#" class=" si-small si-rounded si-light" title="Central Bank">
+																				<img src="images/portfolio/maynooth university logo.png" alt="Maynooth University logo" width="40">
+																			</a>
+																		</div>
+																	</div> -->
+
+																<br>
+
+																<div class="fancy-title topmargin title-border">
+																	<h4>About Me</h4>
+																</div>
+																<!-- Short Bio -->
+																<!-- <p>
+																		Experienced UI/UX designer with a demonstrated history of working in industry, currently engaged in a HDip data science course at Maynooth University and seeking employment in the technology and information industry.
+																		<br/>
+																		Data skills include classification, supervised learning, regression and visualization of insights.
+																		<br/>
+																		Other skills include in Web development with Django and Node.js, Database engineering with PostGres, MySQL 
+																		and SAP HANA DB and Design Thinking and methodology.
+																		<br/>
+																		Strong visual communicator with background in graphic design.
+																		<br/>
+																		Blockchain enthusiast currently studying Chainlink and Ethereum
+																		Internet of things enthusiast currently with experience creating Arduino projects
+																	</p> -->
+																<p>
+																	Experienced and accomplished data analyst, UI
+																	designer and software developer looking to focus my
+																	career on data
+																	analytics and database management. I have worked on
+																	large international design projects within and
+																	across multi
+																	disciplinary teams using the agile project
+																	management approach.
+																	<br /><br />
+																	As a design consultant, I honed my ability to
+																	effectively convey ideas and information visually to
+																	various
+																	audiences. My time at the Central Bank of Ireland
+																	and SAP further sharpened these skills, allowing me
+																	to build
+																	consensus and maintain positive relationships with
+																	clients and cross-functional teams. Experienced in
+																	team
+																	environments I have guided workshops on design
+																	thinking and have been in the role of leader several
+																	times over my
+																	career.
+																	<br /><br />
+																	In 2020 I completed my Higher Diploma in data
+																	analytics and software development acquiring
+																	expertise in database
+																	design, SQL, data mining data. transformation and
+																	machine learning.
+																	I am currently employed with the central bank of
+																	Ireland as a software developer specialising in
+																	SharePoint and
+																	PowerBI.
+																</p>
+
+
+															</div>
+
+														</div>
+
+													</div>
+												</div>
+											</section>
+										</div>
+									</div>
+								</li>
+								<li class="menu-item mega-menu mega-menu-full">
+									<a class="menu-link" href="#">
+										<div>Skills</div>
+									</a>
+									<div class="mega-menu-content mega-menu-style-2">
+										<div class="container">
+											<div class="row">
+												<ul class="sub-menu-container mega-menu-column col-lg-3">
+													<li class="menu-item mega-menu-title">
+														<a class="menu-link" href="#">
+															<div>Software Development</div>
+														</a>
+														<ul class="sub-menu-container">
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://www.mongodb.com/mern-stack#:~:text=MERN%20stands%20for%20MongoDB%2C%20Express,a%20client%2Dside%20JavaScript%20framework">
+																	<div>Web Dev w/MERN Stack</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://en.wikipedia.org/wiki/Unit_testing">
+																	<div>Unit testing</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation">
+																	<div>Form Validation</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://www.analyticsvidhya.com/blog/2021/10/a-detailed-guide-on-sql-query-optimization/">
+																	<div>SQL Optimization</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">
+																	<div>Model View Controller Architecture</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://en.wikipedia.org/wiki/Database">
+																	<div>Database Mangement</div>
+																</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+												<ul class="sub-menu-container mega-menu-column col-lg-3">
+													<li class="menu-item mega-menu-title">
+														<a class="menu-link" href="#">
+															<div>Data Science</div>
+														</a>
+														<ul class="sub-menu-container">
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://en.wikipedia.org/wiki/Data_cleansing">
+																	<div>Data Cleansing</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://en.wikipedia.org/wiki/Regression_analysis">
+																	<div>Classification and Regression</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://en.wikipedia.org/wiki/Cluster_analysis">
+																	<div>Cluster Analysis</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://en.wikipedia.org/wiki/Cross-validation_(statistics)">
+																	<div>Cross Validation</div>
+																</a>
+															</li>
+														</ul>
+													</li>
+													<li class="menu-item mega-menu-title">
+														<a class="menu-link" href="#">
+															<div>Design</div>
+														</a>
+														<ul class="sub-menu-container">
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://sapientprince.medium.com/all-adobe-apps-explained-quickly-85e86d524f61">
+																	<div>Adobe Photoshop/Illustrator/InDesign</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://en.wikipedia.org/wiki/User-centered_design">
+																	<div>User Centered Research Techniques</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://en.wikipedia.org/wiki/SolidWorks">
+																	<div>Solidworks/Keyshot 3D Modeling</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://en.wikipedia.org/wiki/Website_wireframe">
+																	<div>UI Wireframing with Axure</div>
+																</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+												<ul class="sub-menu-container mega-menu-column col-lg-3">
+													<li class="menu-item mega-menu-title">
+														<a class="menu-link" href="#">
+															<div>Languages</div>
+														</a>
+														<ul class="sub-menu-container">
+															<!-- <li class="menu-item" data-percent="80">
+																	<span>Javascript</span>
+																	<div class="progress skills-animated">
+																		<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="80" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
+																	</div>
+																</li> -->
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://en.wikipedia.org/wiki/JavaScript">
+																	<div>Javascript</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://en.wikipedia.org/wiki/HTML">
+																	<div>HTML + CSS</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://en.wikipedia.org/wiki/SQL">
+																	<div>SQL</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">
+																	<div>C#</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://www.python.org/">
+																	<div>Python</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://en.wikipedia.org/wiki/VBScript">
+																	<div>Visual Baisc</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://www.r-project.org/">
+																	<div>R</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank"
+																	href="https://en.wikipedia.org/wiki/Java_(programming_language)">
+																	<div>Java</div>
+																</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+												<ul class="sub-menu-container mega-menu-column col-lg-3">
+													<li class="menu-item mega-menu-title">
+														<a class="menu-link" target="_blank" href="#">
+															<div>Other Software Skills</div>
+														</a>
+														<ul class="sub-menu-container">
+															<li class="menu-item">
+																<a class="menu-link" target="_blank" href="">
+																	<div>MS Office</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank" href="">
+																	<div>Excel VBA Macros</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank" href="">
+																	<div>MS SharePoint</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank" href="">
+																	<div>Worpress</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank" href="">
+																	<div>PowerBI</div>
+																</a>
+															</li>
+														</ul>
+													</li>
+													<li class="menu-item mega-menu-title">
+														<a class="menu-link" href="#">
+															<div>Social Skills</div>
+														</a>
+														<ul class="sub-menu-container">
+															<li class="menu-item">
+																<a class="menu-link" target="_blank" href="">
+																	<div>Communication</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank" href="">
+																	<div>Consensus Building</div>
+																</a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" target="_blank" href="">
+																	<div>Public Presentation</div>
+																</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+
+
+
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+
+
+
+					</div>
+				</div>
+			</div>
+
+	</header><!-- #header end -->
+
+	<!-- Document Wrapper
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
@@ -79,19 +632,32 @@
 						<div class="grid-inner">
 							<div class="portfolio-image">
 								<a href="london-house-prices.html">
-									<img src="images/portfolio/dataAnalytics/london-house-prices-thumb.jpg" alt="London House Prices">
+									<img src="images/portfolio/dataAnalytics/london-house-prices-thumb.jpg"
+										alt="London House Prices">
 								</a>
 								<div class="bg-overlay">
-									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
-										<a href="images/portfolio/dataAnalytics/london-house-prices-full.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-										<a href="london-house-prices.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item"><i class="icon-line-ellipsis"></i></a>
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn"
+										data-hover-parent=".portfolio-item">
+										<a href="images/portfolio/dataAnalytics/london-house-prices-full.jpg"
+											class="overlay-trigger-icon bg-light text-dark"
+											data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+											data-hover-speed="350" data-hover-parent=".portfolio-item"
+											data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
+										<a href="london-house-prices.html"
+											class="overlay-trigger-icon bg-light text-dark"
+											data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+											data-hover-speed="350" data-hover-parent=".portfolio-item"><i
+												class="icon-line-ellipsis"></i></a>
 									</div>
-									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"
+										data-hover-parent=".portfolio-item"></div>
 								</div>
 							</div>
 							<div class="portfolio-desc">
 								<h3><a href="london-house-prices.html">London House Prices</a></h3>
-								<span><p>Project description</p></span>
+								<span>
+									<p>Project description</p>
+								</span>
 							</div>
 						</div>
 					</article>
@@ -101,19 +667,31 @@
 						<div class="grid-inner">
 							<div class="portfolio-image">
 								<a href="#">
-									<img src="images/portfolio/industrial design/Short Stack Keg/Cover Photo.png" alt="DIAGEO Short Stack">
+									<img src="images/portfolio/industrial design/Short Stack Keg/Cover Photo.png"
+										alt="DIAGEO Short Stack">
 								</a>
 								<div class="bg-overlay">
-									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
-										<a href="images/portfolio/industrial design/Short Stack Keg/Cover-Photo-full.png" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-										<a href="short-stack.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item"><i class="icon-line-ellipsis"></i></a>
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn"
+										data-hover-parent=".portfolio-item">
+										<a href="images/portfolio/industrial design/Short Stack Keg/Cover-Photo-full.png"
+											class="overlay-trigger-icon bg-light text-dark"
+											data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+											data-hover-speed="350" data-hover-parent=".portfolio-item"
+											data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
+										<a href="short-stack.html" class="overlay-trigger-icon bg-light text-dark"
+											data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+											data-hover-speed="350" data-hover-parent=".portfolio-item"><i
+												class="icon-line-ellipsis"></i></a>
 									</div>
-									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"
+										data-hover-parent=".portfolio-item"></div>
 								</div>
 							</div>
 							<div class="portfolio-desc">
 								<h3><a href="short-stack.html">DIAGEO Short Stack</a></h3>
-								<span><p>Project description</p></span>
+								<span>
+									<p>Project description</p>
+								</span>
 							</div>
 						</div>
 					</article>
@@ -125,23 +703,39 @@
 								<div class="fslider" data-arrows="false" data-speed="800" data-pause="7000">
 									<div class="flexslider">
 										<div class="slider-wrap">
-											<div class="slide"><a href="world-food-data.html"><img src="images/portfolio/dataAnalytics/world-food.jpg" alt="World Food Data"></a></div>
-											<div class="slide"><a href="world-food-data.html"><img src="images/portfolio/dataAnalytics/world-food2-thumb.jpg" alt="World Food Data"></a></div>
+											<div class="slide"><a href="world-food-data.html"><img
+														src="images/portfolio/dataAnalytics/world-food.jpg"
+														alt="World Food Data"></a></div>
+											<div class="slide"><a href="world-food-data.html"><img
+														src="images/portfolio/dataAnalytics/world-food2-thumb.jpg"
+														alt="World Food Data"></a></div>
 										</div>
 									</div>
 								</div>
 								<div class="bg-overlay" data-lightbox="gallery">
-									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
-										<a href="images/portfolio/dataAnalytics/world-food-full.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-										<a href="images/portfolio/dataAnalytics/world-food2-full.jpg" class="d-none" data-lightbox="gallery-item"></a>
-										<a href="world-food-data.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item"><i class="icon-line-ellipsis"></i></a>
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn"
+										data-hover-parent=".portfolio-item">
+										<a href="images/portfolio/dataAnalytics/world-food-full.jpg"
+											class="overlay-trigger-icon bg-light text-dark"
+											data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+											data-hover-speed="350" data-hover-parent=".portfolio-item"
+											data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+										<a href="images/portfolio/dataAnalytics/world-food2-full.jpg" class="d-none"
+											data-lightbox="gallery-item"></a>
+										<a href="world-food-data.html" class="overlay-trigger-icon bg-light text-dark"
+											data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+											data-hover-speed="350" data-hover-parent=".portfolio-item"><i
+												class="icon-line-ellipsis"></i></a>
 									</div>
-									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"
+										data-hover-parent=".portfolio-item"></div>
 								</div>
 							</div>
 							<div class="portfolio-desc">
 								<h3><a href="world-food-data.html">World Food Data Analysis</a></h3>
-								<span><p>Project description</p></span>
+								<span>
+									<p>Project description</p>
+								</span>
 							</div>
 						</div>
 					</article>
@@ -169,51 +763,84 @@
 					</article> -->
 
 					<!-- Portfolio Item: Common Grounds Website -->
-					<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-web-development pf-graphic-design">
+					<article
+						class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-web-development pf-graphic-design">
 						<div class="grid-inner">
 							<div class="portfolio-image">
 								<a href="CG-website.html">
 									<img src="images/portfolio/webDev/CGsite/CG-Logo.png" alt="CG-Logo">
 								</a>
 								<div class="bg-overlay">
-									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
-										<a href="https://www.youtube.com/watch?v=kuceVNBTJio" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-										<a href="CG-website.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item"><i class="icon-line-ellipsis"></i></a>
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn"
+										data-hover-parent=".portfolio-item">
+										<a href="https://www.youtube.com/watch?v=kuceVNBTJio"
+											class="overlay-trigger-icon bg-light text-dark"
+											data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+											data-hover-speed="350" data-hover-parent=".portfolio-item"
+											data-lightbox="iframe"><i class="icon-line-play"></i></a>
+										<a href="CG-website.html" class="overlay-trigger-icon bg-light text-dark"
+											data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+											data-hover-speed="350" data-hover-parent=".portfolio-item"><i
+												class="icon-line-ellipsis"></i></a>
 									</div>
-									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"
+										data-hover-parent=".portfolio-item"></div>
 								</div>
 							</div>
 							<div class="portfolio-desc">
 								<h3><a href="CG-website.html">Common Grounds Collective</a></h3>
-								<span><p>Project description</p></span>
+								<span>
+									<p>Project description</p>
+								</span>
 							</div>
 						</div>
 					</article>
 					<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-industrial-design">
 						<div class="grid-inner">
 							<div class="portfolio-image">
-								<div class="fslider" data-arrows="false" data-speed="900" data-pause="7000" data-animation="fade">
+								<div class="fslider" data-arrows="false" data-speed="900" data-pause="7000"
+									data-animation="fade">
 									<div class="flexslider">
 										<div class="slider-wrap">
-											<div class="slide"><a href="3d-modelling.html"><img src="images/portfolio/industrial design/3D Modelling/3d-title-page-thumb.jpg" alt="PSP and Walkman"></a></div>
-											<div class="slide"><a href="3d-modelling.html"><img src="images/portfolio/industrial design/3D Modelling/3d-closeups-thumb.jpg" alt="Bridge Side"></a></div>
-											<div class="slide"><a href="3d-modelling.html"><img src="images/portfolio/industrial design/3D Modelling/walkman-solidworks-thumb.jpg" alt="Bridge Side"></a></div>
+											<div class="slide"><a href="3d-modelling.html"><img
+														src="images/portfolio/industrial design/3D Modelling/3d-title-page-thumb.jpg"
+														alt="PSP and Walkman"></a></div>
+											<div class="slide"><a href="3d-modelling.html"><img
+														src="images/portfolio/industrial design/3D Modelling/3d-closeups-thumb.jpg"
+														alt="Bridge Side"></a></div>
+											<div class="slide"><a href="3d-modelling.html"><img
+														src="images/portfolio/industrial design/3D Modelling/walkman-solidworks-thumb.jpg"
+														alt="Bridge Side"></a></div>
 										</div>
 									</div>
 								</div>
 								<div class="bg-overlay" data-lightbox="gallery">
-									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
-										<a href="images/portfolio/industrial design/3D Modelling/Title-Page.png" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-										<a href="images/portfolio/industrial design/3D Modelling/Close-ups.jpg" class="d-none" data-lightbox="gallery-item"></a>
-										<a href="images/portfolio/industrial design/3D Modelling/walkman-solidworks-full.jpg" class="d-none" data-lightbox="gallery-item"></a>
-										<a href="portfolio-single-gallery.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item"><i class="icon-line-ellipsis"></i></a>
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn"
+										data-hover-parent=".portfolio-item">
+										<a href="images/portfolio/industrial design/3D Modelling/Title-Page.png"
+											class="overlay-trigger-icon bg-light text-dark"
+											data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+											data-hover-speed="350" data-hover-parent=".portfolio-item"
+											data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+										<a href="images/portfolio/industrial design/3D Modelling/Close-ups.jpg"
+											class="d-none" data-lightbox="gallery-item"></a>
+										<a href="images/portfolio/industrial design/3D Modelling/walkman-solidworks-full.jpg"
+											class="d-none" data-lightbox="gallery-item"></a>
+										<a href="portfolio-single-gallery.html"
+											class="overlay-trigger-icon bg-light text-dark"
+											data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+											data-hover-speed="350" data-hover-parent=".portfolio-item"><i
+												class="icon-line-ellipsis"></i></a>
 									</div>
-									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"
+										data-hover-parent=".portfolio-item"></div>
 								</div>
 							</div>
 							<div class="portfolio-desc">
 								<h3><a href="3d-modelling.html">Solidworks 3D Modelling</a></h3>
-								<span><p>Project description</p></span>							
+								<span>
+									<p>Project description</p>
+								</span>
 							</div>
 						</div>
 					</article>
@@ -223,19 +850,31 @@
 						<div class="grid-inner">
 							<div class="portfolio-image">
 								<a href="phone-stand.html">
-									<img src="images/portfolio/industrial design/Phone Stand/Phone-Stand-thumb.png" alt="Sunset Bulb Glow">
+									<img src="images/portfolio/industrial design/Phone Stand/Phone-Stand-thumb.png"
+										alt="Sunset Bulb Glow">
 								</a>
 								<div class="bg-overlay">
-									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
-										<a href="images/portfolio/industrial design/Phone Stand/Stand-page.png" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-										<a href="phone-stand.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item"><i class="icon-line-ellipsis"></i></a>
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn"
+										data-hover-parent=".portfolio-item">
+										<a href="images/portfolio/industrial design/Phone Stand/Stand-page.png"
+											class="overlay-trigger-icon bg-light text-dark"
+											data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+											data-hover-speed="350" data-hover-parent=".portfolio-item"
+											data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
+										<a href="phone-stand.html" class="overlay-trigger-icon bg-light text-dark"
+											data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+											data-hover-speed="350" data-hover-parent=".portfolio-item"><i
+												class="icon-line-ellipsis"></i></a>
 									</div>
-									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"
+										data-hover-parent=".portfolio-item"></div>
 								</div>
 							</div>
 							<div class="portfolio-desc">
 								<h3><a href="phone-stand.html">Phone Stand</a></h3>
-								<span><p>Project description</p></span>
+								<span>
+									<p>Project description</p>
+								</span>
 							</div>
 						</div>
 					</article>
@@ -245,19 +884,32 @@
 						<div class="grid-inner">
 							<div class="portfolio-image">
 								<a href="universal-oven-design.html">
-									<img src="images/portfolio/industrial design/Oven Universal Design/universal-oven-thumb.png" alt="Workspace Stuff">
+									<img src="images/portfolio/industrial design/Oven Universal Design/universal-oven-thumb.png"
+										alt="Workspace Stuff">
 								</a>
 								<div class="bg-overlay">
-									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
-										<a href="images/portfolio/industrial design/Oven Universal Design/Presentation.png" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-										<a href="universal-oven-design.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item"><i class="icon-line-ellipsis"></i></a>
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn"
+										data-hover-parent=".portfolio-item">
+										<a href="images/portfolio/industrial design/Oven Universal Design/Presentation.png"
+											class="overlay-trigger-icon bg-light text-dark"
+											data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+											data-hover-speed="350" data-hover-parent=".portfolio-item"
+											data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
+										<a href="universal-oven-design.html"
+											class="overlay-trigger-icon bg-light text-dark"
+											data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+											data-hover-speed="350" data-hover-parent=".portfolio-item"><i
+												class="icon-line-ellipsis"></i></a>
 									</div>
-									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"
+										data-hover-parent=".portfolio-item"></div>
 								</div>
 							</div>
 							<div class="portfolio-desc">
 								<h3><a href="universal-oven-design.html">Workspace Stuff</a></h3>
-								<span><p>Project description</p></span>
+								<span>
+									<p>Project description</p>
+								</span>
 							</div>
 						</div>
 					</article>
@@ -266,19 +918,32 @@
 						<div class="grid-inner">
 							<div class="portfolio-image">
 								<a href="witches-rave-poster-design.html">
-									<img src="images/portfolio/Graphic Design/WR/Profiler-two.png" alt="Workspace Stuff">
+									<img src="images/portfolio/Graphic Design/WR/Profiler-two.png"
+										alt="Workspace Stuff">
 								</a>
 								<div class="bg-overlay">
-									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
-										<a href="images/portfolio/industrial design/Oven Universal Design/Presentation.png" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-										<a href="witches-rave-poster-design.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item"><i class="icon-line-ellipsis"></i></a>
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn"
+										data-hover-parent=".portfolio-item">
+										<a href="images/portfolio/industrial design/Oven Universal Design/Presentation.png"
+											class="overlay-trigger-icon bg-light text-dark"
+											data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+											data-hover-speed="350" data-hover-parent=".portfolio-item"
+											data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
+										<a href="witches-rave-poster-design.html"
+											class="overlay-trigger-icon bg-light text-dark"
+											data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+											data-hover-speed="350" data-hover-parent=".portfolio-item"><i
+												class="icon-line-ellipsis"></i></a>
 									</div>
-									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"
+										data-hover-parent=".portfolio-item"></div>
 								</div>
 							</div>
 							<div class="portfolio-desc">
 								<h3><a href="witches-rave-poster-design.html">Witches Rave Poster Design</a></h3>
-								<span><p>Project description</p></span>
+								<span>
+									<p>Project description</p>
+								</span>
 							</div>
 						</div>
 					</article>
@@ -335,15 +1000,28 @@
 									<img src="images/portfolio/dataAnalytics/consumer-complaints-thumb.jpg" alt="">
 								</a>
 								<div class="bg-overlay" data-lightbox="gallery">
-									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
-										<a href="images/portfolio/dataAnalytics/consumer-complaints-full.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>										<a href="consumer-complaints-data.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item"><i class="icon-line-ellipsis"></i></a>
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn"
+										data-hover-parent=".portfolio-item">
+										<a href="images/portfolio/dataAnalytics/consumer-complaints-full.jpg"
+											class="overlay-trigger-icon bg-light text-dark"
+											data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+											data-hover-speed="350" data-hover-parent=".portfolio-item"
+											data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a> <a
+											href="consumer-complaints-data.html"
+											class="overlay-trigger-icon bg-light text-dark"
+											data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+											data-hover-speed="350" data-hover-parent=".portfolio-item"><i
+												class="icon-line-ellipsis"></i></a>
 									</div>
-									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"
+										data-hover-parent=".portfolio-item"></div>
 								</div>
 							</div>
 							<div class="portfolio-desc">
 								<h3><a href="consumer-complaints-data.html">Consumer Complaints Data</a></h3>
-								<span><p>Project description</p></span>
+								<span>
+									<p>Project description</p>
+								</span>
 							</div>
 						</div>
 					</article>
@@ -354,7 +1032,7 @@
 		</section><!-- #content end -->
 
 	</div><!-- #wrapper end -->
-	
+
 	<!-- Go To Top
 	============================================= -->
 	<div id="gotoTop" class="icon-angle-up"></div>
@@ -369,9 +1047,10 @@
 	<script src="js/functions.js"></script>
 
 	<script>
-		jQuery( "#tabs-profile" ).on( "tabsactivate", function( event, ui ) {
-			jQuery( '.flexslider .slide' ).resize();
+		jQuery("#tabs-profile").on("tabsactivate", function (event, ui) {
+			jQuery('.flexslider .slide').resize();
 		});
 	</script>
 </body>
+
 </html>
